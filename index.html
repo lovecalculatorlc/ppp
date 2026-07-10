@@ -1,16 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Love Calculator</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
+
 <body>
-    <h1>Love Calculator</h1>
-    <p>You can calculate love percentage</p>
-    <label>Your Name: <input type="text" id="name1"></label><br>
-    <label>Name of Your Lover: <input type="text" id="name2"></label><br>
-    <button onclick="calculateLove()">Calculate</button>
+
+<div class="container">
+
+    <h1>❤️ Love Calculator ❤️</h1>
+
+    <p>Enter both names to calculate your love percentage.</p>
+
+    <input
+        type="text"
+        id="name1"
+        placeholder="Enter Your Name">
+
+    <input
+        type="text"
+        id="name2"
+        placeholder="Enter Your Lover's Name">
+
+    <button onclick="calculateLove()">
+        💖 Calculate Love %
+    </button>
+
     <h2 id="result"></h2>
+
+</div>
+
 </body>
 </html>
